@@ -6,30 +6,64 @@ body{
     position: absolute;
     height: 100%;
     width : 100%;
-    font-family: 'Inria Serif', serif;;
+    font-family: 'Inria Serif', serif;
+    
+    
 
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color : white;
+}
+
 #leftSide{
-    background-color: #558B2F;
+    background-color: rgba(0, 131, 143, 0.719);
     
     width:100%;
     
     height: 100%;
     display: flex;
     flex-direction:column;
-    flex : 0.35;
-    margin : auto;
+    flex : 0.45;
+    
     align-content: center;
     justify-content: center;
     align-items: center;
     
+    
+}
+
+#leftSide img {
+    border-radius: 60px;
+    height: 170px;
+    padding-top: 20px;
 }
 
 #leftSide h3{
     background-color: rgb(20, 16, 16);
-    color: #558B2F;
+    color: rgba(221, 235, 247, 0.897);
     width: 100%;
+    text-transform: uppercase;
+}
+
+#leftSide ul {
+    list-style: none;
+    margin : 0;
+    padding: 0;
+    font-size : small;
+    font-weight: bold;
+    text-align: left;
+    padding-left : 35px;
+    
+}
+
+#leftSide li {
+    margin-top: 5px;
     
 }
 
@@ -37,7 +71,7 @@ body{
     width: 100%;
     height: 100%;
     text-align: center;
-    text-transform: uppercase;
+    
 }
 
 #name p{
@@ -57,5 +91,49 @@ body{
     display : flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 15px;
+    padding-left: 40px;
+}
+
+#name{
+    font-size: x-large;
+    margin-bottom: 50px;
+}
+
+#fayssal {
+    color : rgba(0, 131, 143, 0.719);
+}
+
+#formation{
+    width : 100%;
+}
+
+.infoCV {
+    
+    display : flex;
+    margin-bottom: 10px;
+    
+}
+
+.infoCV a:hover{
+    color : rgba(0, 131, 143, 0.719);
+}
+
+.infoCV :nth-child(1){
+    font-size: x-small;
+    flex : 0.5;
+    
+}
+
+.infoCV :nth-child(2){
+    flex : 1;
+    font-size: x-small;
+}
+
+.infoCV h4,h6,p {
+    margin : 0;
+}
+
+.infoCV p{
+    width : 300px;
+    font-size: xx-small;
 }
