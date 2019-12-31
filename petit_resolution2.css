@@ -1,0 +1,140 @@
+body{
+    
+    margin : 0;
+    display: flex;
+    
+    flex-direction: column;
+    
+    font-family: 'Inria Serif', serif;
+    margin-bottom: 30px;
+    overflow: scroll;
+    
+    
+
+}
+
+#formation i {
+    display: none;
+}
+
+
+
+#xpPro i {
+    display: none;
+}
+
+#photo1{
+    display: none !important;
+}
+
+#photo2 {
+    height:220px;
+    width:180px;
+}
+
+#leftSide {
+    text-align : center;
+    background-color: #E0E0E0;
+}
+
+#leftSide li{
+    list-style: none;
+}
+
+#leftSide a{
+    text-decoration: none;
+    color : black;
+}
+
+#leftSide h3{
+    text-transform: uppercase;
+    background-color: #616161;
+    color : white;
+}
+
+#leftSide p{
+    text-align: left;
+    font-size : 14px;
+    
+}
+
+#name {
+    display : none;
+}
+#rightSide a{
+    text-decoration: none;
+    color : black;
+}
+
+
+#rightSide h3{
+    text-align: center;
+    border-bottom : 1px solid black;
+    border-top : 1px solid black;
+    
+}
+
+#formation h3{
+    border-top:none;
+}
+
+
+.infoCV div p{
+    padding-left : 15px;
+    word-wrap: break-word;
+}
+
+
+#rightSide p{
+    font-size : 12px;
+    max-width : 100%;
+    word-wrap: break-word;
+}
+
+.infoCvIcone b{
+    font-size : 14px;
+    
+}
+
+.infoCvIcone a{
+        font-size : 13px;
+}
+
+.infoCvIcone i{
+    display : none;
+}
+
+.infoCvIcone p{
+    text-align: center;
+}
+
+.infoCV h4{
+    margin-bottom: 0;
+}
+
+.infoCV h6{
+    margin-top: 5px;
+}
+
+#contact {
+    text-align : justify;
+    font-weight: bold;
+}
+
+
+#fayssal2 p{
+    text-align : center;
+    margin : 5px;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 100%;
+    padding-top : 15px;
+}
+
+#xpPro h3{
+    margin-left: 0;
+    margin-right: 0;
+
+}
