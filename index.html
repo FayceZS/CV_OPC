@@ -1,32 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>Mon joli CV !</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mon CV !</title>
+        <link href="https://fonts.googleapis.com/css?family=Inria+Serif&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Inria+Serif&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/b602caafa6.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="style.css">
+        
+        
+        <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+        <link rel="stylesheet" media="screen and (max-device-width: 780px" href="petit_resolution2.css" />
+        <link rel="stylesheet" media="screen and (min-device-width:780px)" href="style.css">
+        
+        
 
         
     </head>
     <body>
         <div id="leftSide">
                 <section>
-                        <img src="photo.gif">
+                        <img src="photo.gif" alt="Moi :-)" id="photo1">
+                        <img src="photo2.png" alt="Moi :-)" id="photo2">
+                        <div id="fayssal2">
+                        <p><span >FAYSSAL</span> IBRAHIMI</p>
+                        <p><strong>Développeur web </strong></p>
+                        </div>
                         <h3>CONTACT</h3>
+                        <div id="contact">
                         <ul>
                             <li><p>Localisation : <br> Ile-de-France</p></li>
                             <li><p>Email : <br> Fayssalibrahimi@gmail.com</p></li>
                             <li><p>Numéro de téléphone : <br> 0769815774</p></li>
-                            <li><p>Site web : <br> <a href="www.fayssal-ibrahimi.com">www.fayssal-ibrahimi.com</a></p></li>
+                            <li><p>Site web : <br> <a href="https://www.fayssal-ibrahimi.fr">www.fayssal-ibrahimi.fr</a></p></li>
                             
                         </ul>
-
+                        </div>
+                        
+                        <div id="propos">
                         <h3>à propos de moi</h3>
-                        <p></p>
+                            <div style="padding-left : 20px;">
+                        <p>Jeune, ambitieux et autodidacte, j'aime l'aventure et la découverte ce qui m'amène à être à la recherche constante de nouveaux défis c'est d'ailleurs cette facette de ma personnalité qui m'a amené à apprendre les langages de programmation, le domaine du développement web 
+                            car j'y ai découvert une véritable passion, celle de parler aux machines et de matérialiser mes idées.
+                        <br><br><br>Je suis flexible et je reléverai n'importe quel défi professionnelle avec motivation,patience et persévérance. </p>
+                            </div>
+                        </div>
 
+                        <div id="loisirs">
                         <h3>Loisirs</h3>
-
+                        <i class="fad fa-boxing-glove"></i>
+                        </div>
 
                 </section>
 
@@ -42,7 +67,7 @@
                 
                 <h3><i class="fas fa-graduation-cap"></i><span>FORMATION</span></h3>
                 <span class="border"></span>
-                <div class="infoCV" id="firstInfoCV">
+                <div class="infoCV firstInfoCV">
                     <div class="infoCvIcone">
                         
                        <i class="far fa-dot-circle fa-10x"></i>
@@ -73,15 +98,17 @@
             <section id="xpPro">
                     <h3><i class="fas fa-briefcase"></i><span>Expériences professionnelles</span></h3>
                     <span class="border"></span>
-                    <div class="infoCV">
+                    <div class="infoCV firstInfoCV">
                             <div class="infoCvIcone">
                                     <i class="far fa-circle"></i>
-                                <p> <b>2013 :</b> <br> Maubeuge</p>
+                                <p> <b>Mai 2019 :</b> <br> Halle</p>
                             </div>
                             <div>
-                                <h4>Lycée André Lurçat,</h4>
-                                <h6>Baccalauréat Economique et Sociale</h6>
-                                <p>Obtention du baccalauréat économiques et sociales, lors de la session juin 2013.</p>
+                                <h4>Responsable étudiants,</h4>
+                                <h6>Colruyt CMP</h6>
+                                <p>Gestion d’une équipe de 40 étudiants, attributions de leurs tâches, de leurs plannings, 
+                                        recrutement si besoin dans l’équipe, accompagnement dans leur travail.
+                    </p>
                             </div>
         
                         </div>
@@ -89,12 +116,12 @@
                         <div class="infoCV">
                                 <div class="infoCvIcone">
                                         <i class="fas fa-circle"></i>
-                                    <p> <b>2013 :</b> <br> Maubeuge</p>
+                                    <p> <b>Mars 2017 :</b> <br> Halle/Ghislenghien</p>
                                 </div>
                                 <div>
-                                    <h4>Lycée André Lurçat,</h4>
-                                    <h6>Baccalauréat Economique et Sociale</h6>
-                                    <p>Obtention du baccalauréat économiques et sociales, lors de la session juin 2013.</p>
+                                    <h4>Responsable de quai,</h4>
+                                    <h6>Colruyt CMP</h6>
+                                    <p>Management d’une équipe selon besoins par rapport au volume de travail, planification   des remorques selon les besoins de la chaine logistique, personne de contact en cas de problèmes,  contrôle du contenu des remorques.</p>
                                 </div>
             
                             </div>
@@ -102,12 +129,12 @@
                             <div class="infoCV">
                                     <div class="infoCvIcone">
                                             <i class="fas fa-circle"></i>
-                                        <p> <b>2013 :</b> <br> Maubeuge</p>
+                                        <p> <b>Mars 2015 à mars 2017 :</b> <br> Ghislenghien</p>
                                     </div>
                                     <div>
-                                        <h4>Lycée André Lurçat,</h4>
-                                        <h6>Baccalauréat Economique et Sociale</h6>
-                                        <p>Obtention du baccalauréat économiques et sociales, lors de la session juin 2013.</p>
+                                        <h4>Ouvrier polyvalent,</h4>
+                                        <h6>Colruyt CMP</h6>
+                                        <p>Tâches de manutentions, déchargement de camions, nettoyage.</p>
                                     </div>
                 
                                 </div>
@@ -115,12 +142,12 @@
                                 <div class="infoCV">
                                         <div class="infoCvIcone">
                                                 <i class="fas fa-circle"></i>
-                                            <p> <b>2013 :</b> <br> Maubeuge</p>
+                                            <p> <b>Juillet 2014 à février 2015 :</b> <br> Saintes,Tubize</p>
                                         </div>
                                         <div>
-                                            <h4>Lycée André Lurçat,</h4>
-                                            <h6>Baccalauréat Economique et Sociale</h6>
-                                            <p>Obtention du baccalauréat économiques et sociales, lors de la session juin 2013.</p>
+                                            <h4>Préparateur de commandes,</h4>
+                                            <h6>Sportsdirects International Logistics</h6>
+                                            <p>Préparation de commandes en entrepôt principalement des produits textiles.</p>
                                         </div>
                     
                                     </div>
@@ -131,7 +158,23 @@
             <section id="recommandations">
                     <h3><i class="fas fa-pencil-alt"></i><span>Recommandations</span></h3>
                     <span class="border"></span>
+                    <div>
+                        <div id="infoRecommandations">
+                                <h6>Fayssal Ibrahimi</h6>
+                                <p>Chef de service, ColruytGroup</p>
+                                <p>telephone : 0769815774</p>
+                                <p>Email : fayssalibrahimi@gmail.com</p>
 
+                        </div>
+
+                        <div id="infoRecommandations">
+                            <h6>Fayssal Ibrahimi</h6>
+                            <p>Chef de service, ColruytGroup</p>
+                            <p>telephone : 0769815774</p>
+                            <p>Email : fayssalibrahimi@gmail.com</p>
+                            
+                        </div>
+                    </div>
 
             </section>
 
