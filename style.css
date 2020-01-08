@@ -40,12 +40,12 @@ a:hover {
     color : white;
 }
 
-#leftSide{
+#leftSide{                                              /*Partie gauche du CV*/
     background-color: rgba(0, 131, 143, 0.719);
     
     
     
-    height: all;
+    height: 100%;
     display: flex;
     flex-direction:column;
     flex : 0.45;
@@ -99,7 +99,7 @@ a:hover {
 }
 
 #propos{
-    margin-bottom: 200px;
+    margin-bottom: 90%;
 }
 
 #leftSide p{
@@ -122,6 +122,19 @@ a:hover {
     
 }
 
+#loisirsIcone{
+    display : flex;
+    justify-content: space-around;
+    margin-bottom : 25px;
+    
+}
+
+#loisirs i{
+    font-size: 50px;
+    width: 45px;
+    
+}
+
 #name p{
     margin : 0;
 }
@@ -131,10 +144,10 @@ a:hover {
 }
 
 
-#rightSide{
+#rightSide{                             /*Partie droite du CV*/
 
     width : auto;
-    height : all;
+    height : auto;
     flex : 1;
     display : flex;
     flex-direction: column;
@@ -157,7 +170,7 @@ a:hover {
     margin-bottom: 50px;
 }
 
-#fayssal {
+#blue {
     color : rgba(0, 131, 143, 0.719);
 }
 
@@ -171,7 +184,12 @@ width : 100%;
 
 .infoCvIcone{
     display : flex;
-    font-size : 0.5rem;
+    font-size : 12px;
+    
+    align-items: flex-start;
+    justify-content: start;
+    
+    
     
     
 }
@@ -181,7 +199,16 @@ width : 100%;
 .infoCvIcone p {
     position: absolute;
     margin-left : 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     
+    
+    
+}
+
+.infoCvIcone p b{
+    font-size : 14px;
 }
 
 #rightSide i{
@@ -220,14 +247,14 @@ h3 span{
 }
 
 .infoCV :nth-child(1){
-    font-size: x-small;
+    font-size: 17px;
     flex : 0.5;
     
 }
 
 .infoCV :nth-child(2){
     flex : 1;
-    font-size: x-small;
+    font-size: 15px;
 }
 
 .infoCV h4,h6,p {
@@ -237,12 +264,12 @@ h3 span{
 
 .infoCV p{
     width : 300px;
-    font-size: xx-small;
+    font-size: 13px;
 }
 
 #borderDev {
     height:2px;
-    width:80px;
+    width:130px;
     background-color: rgba(0, 131, 143, 0.719);
     position: absolute;
 
@@ -268,7 +295,7 @@ h3 span{
 
 #recommandations{
     width:600px;
-    margin-bottom : 30px;
+    
     
 }
 
@@ -285,6 +312,11 @@ h3 span{
     margin-top:20px;
     display:flex;
     flex-direction: column;
+    font-size : 15px;
+}
+
+#infoRecommandations h6{
+    font-size : 17px;
 }
 
 
