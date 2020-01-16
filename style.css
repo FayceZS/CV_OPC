@@ -25,12 +25,12 @@ a:hover {
     
     
     
-    height: 100%;
+    height: all;
     display: flex;
     flex-direction:column;
     flex : 0.45;
 }
-#fayssal2{                      /*On reserve ça pour la partie mobile*/
+#fayssal2{                      /*On reserve ça pour la partie mobile en mettant un display:none*/
     
     
     display: none;
@@ -150,7 +150,7 @@ a:hover {
 
 
 #name{
-    font-size: x-large;
+    font-size: 40px;
     margin-bottom: 50px;
 }
 
