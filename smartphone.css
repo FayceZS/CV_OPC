@@ -205,7 +205,8 @@ img {
     }
 
     #propos{
-        flex : 1;
+        
+        height : 69%;
     }
 
     #propos p{
